@@ -7,6 +7,7 @@
 //
 
 #import "IFMViewController.h"
+#import <HuoghLibrary/IFMAddtion.h>
 
 @interface IFMViewController ()
 
@@ -18,6 +19,10 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    IFMAddtion *addtion = [IFMAddtion new];
+    int sum = [addtion addA:10 andB:100];
+    NSLog(@"sum is %d", sum);
 }
 
 - (void)didReceiveMemoryWarning

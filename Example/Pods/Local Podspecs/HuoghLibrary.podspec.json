@@ -1,0 +1,22 @@
+{
+  "name": "HuoghLibrary",
+  "version": "0.1.0",
+  "summary": "A short description of HuoghLibrary.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/huoguanghua/HuoghLibrary",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "huoguanghua": "huouganghua@infomedia.com.cn"
+  },
+  "source": {
+    "git": "https://github.com/huoguanghua/HuoghLibrary.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "HuoghLibrary/Classes/**/*"
+}

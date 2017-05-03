@@ -8,8 +8,10 @@
 
 // https://github.com/Specta/Specta
 
-SpecBegin(InitialSpecs)
+#import <HuoghLibrary/IFMAddtion.h>
 
+SpecBegin(InitialSpecs)
+/*
 describe(@"these will fail", ^{
 
     it(@"can do maths", ^{
@@ -43,6 +45,18 @@ describe(@"these will pass", ^{
         });
     });
 });
+*/
+
+describe(@"test for IFMAddtion", ^{
+    
+    it(@"can do maths", ^{
+        IFMAddtion *obj = [IFMAddtion new];
+        int sum = [obj addA:1 andB: 2];
+        expect(sum).equal(1 + 2);
+    });
+});
+
+
 
 SpecEnd
 
